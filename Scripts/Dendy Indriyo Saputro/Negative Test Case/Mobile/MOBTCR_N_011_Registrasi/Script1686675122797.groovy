@@ -21,33 +21,33 @@ Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Register, now'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Nama Field'), 'Abdul Budi', 0)
+Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Nama Field'), 'Abdul Budi', 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText -Tanggal Lahir Field'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText -Tanggal Lahir Field'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.Button - OK (After Tanggal Lahir)'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.Button - OK (After Tanggal Lahir)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/android.widget.EditText - Email Field'), 'testcdid123@gmail.com', 
+Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Email Field'), 'testcdid123@gmail.com', 
     0)
 
-Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/android.widget.EditText - WhatsApp Field'), 
+Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - WhatsApp Field'), 
     '089637557848', 0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Kata Sandi Field'), '/1ZObZjf6SWlTY4xbVQyPA==', 
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), '/1ZObZjf6SWlTY4xbVQyPA==', 
     0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
     '/1ZObZjf6SWlTY4xbVQyPA==', 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.CheckBox - Term and Condition'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.CheckBox - Term and Condition'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.view.ViewGroup - Daftar Button2'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.view.ViewGroup - Daftar Button2'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Email sudah terdaftar'), 
+Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Email sudah terdaftar'), 
     'text', 'Email sudah terdaftar', 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)

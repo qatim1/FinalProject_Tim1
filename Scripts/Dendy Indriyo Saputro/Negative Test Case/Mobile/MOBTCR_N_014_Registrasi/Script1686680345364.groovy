@@ -21,14 +21,14 @@ Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Register, now'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/android.widget.EditText - WhatsApp Field'), 
+Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - WhatsApp Field'), 
     '12345678901234', 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - WhatsApp Field'), 
+Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - WhatsApp Field'), 
     'text', '1234567890123', 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)

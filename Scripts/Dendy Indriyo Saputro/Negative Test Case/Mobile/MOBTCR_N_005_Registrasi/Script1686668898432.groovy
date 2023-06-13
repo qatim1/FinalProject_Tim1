@@ -21,11 +21,11 @@ Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Register, now'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Nama Field'), '123!@#', 0)
+Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Nama Field'), '123!@#', 0)
 
-Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Name must be alphabetic'), 
+Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Name must be alphabetic'), 
     'text', 'Name must be alphabetic', 0)
 
 Mobile.delay(2)

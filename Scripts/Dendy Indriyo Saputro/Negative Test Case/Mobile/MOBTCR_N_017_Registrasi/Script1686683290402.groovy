@@ -21,17 +21,17 @@ Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
-Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Register, now'), 0)
+Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Kata Sandi Field'), 'RTo5y4U6Gn8=', 
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), 'RTo5y4U6Gn8=', 
     0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
     'RTo5y4U6Gn8=', 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementText(findTestObject('Dendy Indriyo Saputro/Mobile/android.widget.TextView - Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters'), 
+Mobile.verifyElementText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters'), 
     'Password atleast must contain alphanumeric (a-Z,0-9) with minim 8 characters')
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
