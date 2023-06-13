@@ -17,3 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/android.widget.TextView - Register, now'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/android.widget.CheckBox - Term and Condition'), 
+    0)
+
+Mobile.verifyElementAttributeValue(findTestObject('Dendy Indriyo Saputro/Mobile/android.view.ViewGroup - Daftar Button'), 
+    'clickable', 'false', 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.closeApplication()
+
