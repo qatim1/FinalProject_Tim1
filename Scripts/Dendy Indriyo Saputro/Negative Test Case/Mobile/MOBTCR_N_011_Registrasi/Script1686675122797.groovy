@@ -17,26 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
+Mobile.startApplication('D:\\APK\\DemoAppV2.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Nama Field'), 'Abdul Budi', 0)
+Mobile.setText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Nama Field'), 'Abdul Budi', 
+    0)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText -Tanggal Lahir Field'), 0)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.Button - OK (After Tanggal Lahir)'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Email Field'), 'testcdid123@gmail.com', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Email Field'), 
+    'testcdid123@gmail.com', 0)
 
 Mobile.setText(findTestObject('Object Repository/Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - WhatsApp Field'), 
     '089637557848', 0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), '/1ZObZjf6SWlTY4xbVQyPA==', 
-    0)
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), 
+    '/1ZObZjf6SWlTY4xbVQyPA==', 0)
 
 Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
     '/1ZObZjf6SWlTY4xbVQyPA==', 0)

@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\APK\\Demo-App.apk', true)
+Mobile.startApplication('D:\\APK\\DemoAppV2.apk', true)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Main/android.widget.TextView - Login Here Button'), 0)
 
 Mobile.tap(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.TextView - Register, now'), 0)
 
-Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), 'RTo5y4U6Gn8=', 
-    0)
+Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Kata Sandi Field'), 
+    'RTo5y4U6Gn8=', 0)
 
 Mobile.setEncryptedText(findTestObject('Dendy Indriyo Saputro/Mobile/Register/android.widget.EditText - Konfirmasi Kata Sandi Field'), 
     'RTo5y4U6Gn8=', 0)
