@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email valid dan password valid</description>
+   <name>APITCL_P_001_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be77fbc6-a8dc-4d84-866a-4eb2a97b5574</testCaseGuid>
+</TestCaseEntity>

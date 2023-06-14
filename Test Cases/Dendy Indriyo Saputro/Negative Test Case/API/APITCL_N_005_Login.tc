@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login email valid dan password kosong</description>
+   <name>APITCL_N_005_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de6098ba-72f4-4c4e-b887-5a9afb374a67</testCaseGuid>
+</TestCaseEntity>
