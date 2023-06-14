@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="N_Register" time="67.046" tests="5" failures="0" errors="0">
+   <testsuite name="N_Register" tests="5" failures="0" errors="0" time="67.046" skipped="0" timestamp="2023-06-14 16:38:11" hostname="adria - DESKTOP-2B5N6V0" id="Test Suites/Adrian/WEB/N_Register">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\adria\\git\\FinalProject_Tim1\\Reports\\20230614_163807\\Adrian\\WEB\\N_Register\\20230614_163807"/>
+         <property name="logFiles" value="C:\\Users\\adria\\git\\FinalProject_Tim1\\Reports\\20230614_163807\\Adrian\\WEB\\N_Register\\20230614_163807\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="adria - DESKTOP-2B5N6V0"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.100.7"/>
+         <property name="sessionId" value="01e914d97e89ec0d50bc32b97bc9a385"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_005_Registrasi" time="15.632" classname="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_005_Registrasi" status="PASSED">
+         <system-out><![CDATA[2023-06-14 16:38:11 - [TEST_CASE][PASSED] - Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_005_Registrasi: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_005_Registrasi
+
+2023-06-14 16:38:12 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:38:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:38:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:20 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama"), "Abdul Budi"): Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:21 - [MESSAGE][PASSED] - Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:21 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email"), "testcdid123@gmail.com"): Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:22 - [MESSAGE][PASSED] - Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:22 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp"), "089637557848"): Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:22 - [MESSAGE][PASSED] - Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:38:25 - [TEST_STEP][PASSED] - verifyTextPresent("Wajib di isi.", false): Text 'Wajib di isi.' is present on page 
+
+2023-06-14 16:38:26 - [MESSAGE][PASSED] - Text 'Wajib di isi.' is present on page 
+
+2023-06-14 16:38:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 16:38:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_006_Registrasi" time="12.666" classname="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_006_Registrasi" status="PASSED">
+         <system-out><![CDATA[2023-06-14 16:38:27 - [TEST_CASE][PASSED] - Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_006_Registrasi: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_006_Registrasi
+
+2023-06-14 16:38:27 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:38:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:38:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:32 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama"), "Abdul Budi"): Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:33 - [MESSAGE][PASSED] - Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir"), "30-Aug-2020"): Text '30-Aug-2020' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:34 - [MESSAGE][PASSED] - Text '30-Aug-2020' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:34 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email"), "testcdid123@gmail.com"): Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:35 - [MESSAGE][PASSED] - Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:35 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp"), "089637557848"): Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:36 - [MESSAGE][PASSED] - Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:37 - [TEST_STEP][PASSED] - expectedDate = "31-Dec-2016": null
+
+2023-06-14 16:38:37 - [TEST_STEP][PASSED] - actualDate = getAttribute(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir"), "value"): Attribute 'value' of object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir' is: '31-Dec-2016'
+
+2023-06-14 16:38:38 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir' is: '31-Dec-2016'
+
+2023-06-14 16:38:38 - [TEST_STEP][PASSED] - verifyMatch(actualDate, expectedDate, true): Actual text '31-Dec-2016' and expected text '31-Dec-2016' are matched  using regular expression
+
+2023-06-14 16:38:38 - [MESSAGE][PASSED] - Actual text '31-Dec-2016' and expected text '31-Dec-2016' are matched  using regular expression
+
+2023-06-14 16:38:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 16:38:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_008_Registrasi" time="11.917" classname="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_008_Registrasi" status="PASSED">
+         <system-out><![CDATA[2023-06-14 16:38:39 - [TEST_CASE][PASSED] - Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_008_Registrasi: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_008_Registrasi
+
+2023-06-14 16:38:40 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:38:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:38:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:43 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:44 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama"), "Abdul Budi"): Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:45 - [MESSAGE][PASSED] - Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:45 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir"), "30-Aug-2000"): Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:46 - [MESSAGE][PASSED] - Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email"), "testcdid"): Text 'testcdid' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:47 - [MESSAGE][PASSED] - Text 'testcdid' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:47 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp"), "089637557848"): Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:48 - [MESSAGE][PASSED] - Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:38:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:38:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:38:49 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:38:50 - [TEST_STEP][PASSED] - verifyTextPresent("Buat Akun Baru", false): Text 'Buat Akun Baru' is present on page 
+
+2023-06-14 16:38:51 - [MESSAGE][PASSED] - Text 'Buat Akun Baru' is present on page 
+
+2023-06-14 16:38:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 16:38:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_011_Registrasi" time="11.138" classname="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_011_Registrasi" status="PASSED">
+         <system-out><![CDATA[2023-06-14 16:38:51 - [TEST_CASE][PASSED] - Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_011_Registrasi: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_011_Registrasi
+
+2023-06-14 16:38:52 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:38:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:38:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:38:55 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:38:56 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama"), "Abdul Budi"): Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:57 - [MESSAGE][PASSED] - Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:38:57 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir"), "30-Aug-2000"): Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:58 - [MESSAGE][PASSED] - Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:38:58 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email"), "testcdid123@gmail.com"): Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:59 - [MESSAGE][PASSED] - Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:38:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:39:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:39:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password"), "/1ZObZjf6SXVzGwZ9Vhvcg=="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:39:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:39:01 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:39:01 - [TEST_STEP][PASSED] - verifyTextPresent("Buat Akun Baru", false): Text 'Buat Akun Baru' is present on page 
+
+2023-06-14 16:39:02 - [MESSAGE][PASSED] - Text 'Buat Akun Baru' is present on page 
+
+2023-06-14 16:39:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 16:39:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi" time="15.211" classname="Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi" status="PASSED">
+         <system-out><![CDATA[2023-06-14 16:39:02 - [TEST_CASE][PASSED] - Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi
+
+2023-06-14 16:39:03 - [TEST_STEP][PASSED] - openBrowser("https://demo-app.online/"): Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-14 16:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-14 16:39:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://demo-app.online/'
+
+2023-06-14 16:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun' is clicked on
+
+2023-06-14 16:39:09 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama"), "Abdul Budi"): Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:39:10 - [MESSAGE][PASSED] - Text 'Abdul Budi' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'
+
+2023-06-14 16:39:10 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir"), "30-Aug-2000"): Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:39:11 - [MESSAGE][PASSED] - Text '30-Aug-2000' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir'
+
+2023-06-14 16:39:11 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email"), "testcdid123@gmail.com"): Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:39:12 - [MESSAGE][PASSED] - Text 'testcdid123@gmail.com' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'
+
+2023-06-14 16:39:12 - [TEST_STEP][PASSED] - setText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp"), "089637557848"): Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:39:13 - [MESSAGE][PASSED] - Text '089637557848' is set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'
+
+2023-06-14 16:39:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:39:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'
+
+2023-06-14 16:39:14 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:39:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'
+
+2023-06-14 16:39:14 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan' is clicked on
+
+2023-06-14 16:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar")): Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar' is clicked on
+
+2023-06-14 16:39:16 - [TEST_STEP][PASSED] - verifyTextPresent("The password must be at least 8 characters.", false, STOP_ON_FAILURE): Text 'The password must be at least 8 characters.' is present on page 
+
+2023-06-14 16:39:17 - [MESSAGE][PASSED] - Text 'The password must be at least 8 characters.' is present on page 
+
+2023-06-14 16:39:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-14 16:39:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-14 16:38:11 - [TEST_SUITE][PASSED] - N_Register: Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
