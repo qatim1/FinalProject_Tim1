@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+N_Register,Chrome 114.0.0.0,,,2023-06-14 16:38:11,2023-06-14 16:39:18,1m - 7.046s,PASSED
+,,,,,,,
+Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_005_Registrasi,Chrome 114.0.0.0,"Mengosongkan field ""Tanggal Lahir"", dan field lain diinput sesuai requirements",,2023-06-14 16:38:11,2023-06-14 16:38:27,15.632s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 114.0.0.0,,,2023-06-14 16:38:12,2023-06-14 16:38:19,6.891s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun""))",Chrome 114.0.0.0,,,2023-06-14 16:38:19,2023-06-14 16:38:20,1.101s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama""), ""Abdul Budi"")",Chrome 114.0.0.0,,,2023-06-14 16:38:20,2023-06-14 16:38:21,1.102s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email""), ""testcdid123@gmail.com"")",Chrome 114.0.0.0,,,2023-06-14 16:38:21,2023-06-14 16:38:22,0.779s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp""), ""089637557848"")",Chrome 114.0.0.0,,,2023-06-14 16:38:22,2023-06-14 16:38:22,0.755s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:22,2023-06-14 16:38:23,0.609s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:23,2023-06-14 16:38:23,0.528s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan""))",Chrome 114.0.0.0,,,2023-06-14 16:38:23,2023-06-14 16:38:24,0.582s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar""))",Chrome 114.0.0.0,,,2023-06-14 16:38:24,2023-06-14 16:38:25,1.124s,PASSED
+"verifyTextPresent(""Wajib di isi."", false)",Chrome 114.0.0.0,,,2023-06-14 16:38:25,2023-06-14 16:38:26,0.741s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 16:38:26,2023-06-14 16:38:27,0.760s,PASSED
+,,,,,,,
+Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_006_Registrasi,Chrome 114.0.0.0,"Menginput field ""Tanggal Lahir"" dengan kalkulasi umur <6 tahun",,2023-06-14 16:38:27,2023-06-14 16:38:39,12.666s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 114.0.0.0,,,2023-06-14 16:38:27,2023-06-14 16:38:31,3.402s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun""))",Chrome 114.0.0.0,,,2023-06-14 16:38:31,2023-06-14 16:38:32,1.288s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama""), ""Abdul Budi"")",Chrome 114.0.0.0,,,2023-06-14 16:38:32,2023-06-14 16:38:33,1.132s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir""), ""30-Aug-2020"")",Chrome 114.0.0.0,,,2023-06-14 16:38:33,2023-06-14 16:38:34,0.944s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email""), ""testcdid123@gmail.com"")",Chrome 114.0.0.0,,,2023-06-14 16:38:34,2023-06-14 16:38:35,0.883s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp""), ""089637557848"")",Chrome 114.0.0.0,,,2023-06-14 16:38:35,2023-06-14 16:38:36,0.757s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:36,2023-06-14 16:38:36,0.513s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:36,2023-06-14 16:38:37,0.495s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan""))",Chrome 114.0.0.0,,,2023-06-14 16:38:37,2023-06-14 16:38:37,0.722s,PASSED
+"expectedDate = ""31-Dec-2016""",Chrome 114.0.0.0,,,2023-06-14 16:38:37,2023-06-14 16:38:37,0.001s,PASSED
+"actualDate = getAttribute(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir""), ""value"")",Chrome 114.0.0.0,,,2023-06-14 16:38:37,2023-06-14 16:38:38,0.430s,PASSED
+"verifyMatch(actualDate, expectedDate, true)",Chrome 114.0.0.0,,,2023-06-14 16:38:38,2023-06-14 16:38:38,0.039s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 16:38:38,2023-06-14 16:38:39,1.578s,PASSED
+,,,,,,,
+Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_008_Registrasi,Chrome 114.0.0.0,"Menginput field ""E-Mail"" dengan tidak menggunakan karakter ""@"", dan field lain diinput sesuai requirements",,2023-06-14 16:38:39,2023-06-14 16:38:51,11.917s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 114.0.0.0,,,2023-06-14 16:38:40,2023-06-14 16:38:43,3.199s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun""))",Chrome 114.0.0.0,,,2023-06-14 16:38:43,2023-06-14 16:38:44,1.111s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama""), ""Abdul Budi"")",Chrome 114.0.0.0,,,2023-06-14 16:38:44,2023-06-14 16:38:45,1.068s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir""), ""30-Aug-2000"")",Chrome 114.0.0.0,,,2023-06-14 16:38:45,2023-06-14 16:38:46,1.005s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email""), ""testcdid"")",Chrome 114.0.0.0,,,2023-06-14 16:38:46,2023-06-14 16:38:47,0.872s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp""), ""089637557848"")",Chrome 114.0.0.0,,,2023-06-14 16:38:47,2023-06-14 16:38:48,0.781s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:48,2023-06-14 16:38:48,0.531s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:48,2023-06-14 16:38:49,0.541s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan""))",Chrome 114.0.0.0,,,2023-06-14 16:38:49,2023-06-14 16:38:50,0.686s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar""))",Chrome 114.0.0.0,,,2023-06-14 16:38:50,2023-06-14 16:38:50,0.510s,PASSED
+"verifyTextPresent(""Buat Akun Baru"", false)",Chrome 114.0.0.0,,,2023-06-14 16:38:50,2023-06-14 16:38:51,0.369s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 16:38:51,2023-06-14 16:38:51,0.735s,PASSED
+,,,,,,,
+Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_011_Registrasi,Chrome 114.0.0.0,"Mengosongkan field ""Whatsapp"", dan field lain diinput sesuai requirements",,2023-06-14 16:38:51,2023-06-14 16:39:02,11.138s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 114.0.0.0,,,2023-06-14 16:38:52,2023-06-14 16:38:55,2.967s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun""))",Chrome 114.0.0.0,,,2023-06-14 16:38:55,2023-06-14 16:38:56,1.321s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama""), ""Abdul Budi"")",Chrome 114.0.0.0,,,2023-06-14 16:38:56,2023-06-14 16:38:57,1.018s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir""), ""30-Aug-2000"")",Chrome 114.0.0.0,,,2023-06-14 16:38:57,2023-06-14 16:38:58,1.026s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email""), ""testcdid123@gmail.com"")",Chrome 114.0.0.0,,,2023-06-14 16:38:58,2023-06-14 16:38:59,0.891s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:38:59,2023-06-14 16:39:00,0.512s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password""), ""/1ZObZjf6SXVzGwZ9Vhvcg=="")",Chrome 114.0.0.0,,,2023-06-14 16:39:00,2023-06-14 16:39:00,0.503s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan""))",Chrome 114.0.0.0,,,2023-06-14 16:39:00,2023-06-14 16:39:01,0.552s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar""))",Chrome 114.0.0.0,,,2023-06-14 16:39:01,2023-06-14 16:39:01,0.506s,PASSED
+"verifyTextPresent(""Buat Akun Baru"", false)",Chrome 114.0.0.0,,,2023-06-14 16:39:01,2023-06-14 16:39:02,0.496s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 16:39:02,2023-06-14 16:39:02,0.761s,PASSED
+,,,,,,,
+Test Cases/Adrian Ramdo Firmansyah/Negative Test Case/WEB/WEBTCR_N_016_Registrasi,Chrome 114.0.0.0,"Menginput field ""Kata Sandi"" dan ""Konfirmasi Kata Sandi"" <8 karakter, dan field lain diinput sesuai requirements",,2023-06-14 16:39:02,2023-06-14 16:39:18,15.211s,PASSED
+"openBrowser(""https://demo-app.online/"")",Chrome 114.0.0.0,,,2023-06-14 16:39:03,2023-06-14 16:39:07,3.723s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun""))",Chrome 114.0.0.0,,,2023-06-14 16:39:07,2023-06-14 16:39:09,2.251s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama""), ""Abdul Budi"")",Chrome 114.0.0.0,,,2023-06-14 16:39:09,2023-06-14 16:39:10,1.587s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Tanggal lahir""), ""30-Aug-2000"")",Chrome 114.0.0.0,,,2023-06-14 16:39:10,2023-06-14 16:39:11,0.966s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email""), ""testcdid123@gmail.com"")",Chrome 114.0.0.0,,,2023-06-14 16:39:11,2023-06-14 16:39:12,0.955s,PASSED
+"setText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp""), ""089637557848"")",Chrome 114.0.0.0,,,2023-06-14 16:39:12,2023-06-14 16:39:13,0.796s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-06-14 16:39:13,2023-06-14 16:39:14,0.512s,PASSED
+"setEncryptedText(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password""), ""iGDxf8hSRT4="")",Chrome 114.0.0.0,,,2023-06-14 16:39:14,2023-06-14 16:39:14,0.753s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan""))",Chrome 114.0.0.0,,,2023-06-14 16:39:14,2023-06-14 16:39:15,0.591s,PASSED
+"click(findTestObject(""Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar""))",Chrome 114.0.0.0,,,2023-06-14 16:39:15,2023-06-14 16:39:16,1.040s,PASSED
+"verifyTextPresent(""The password must be at least 8 characters."", false, STOP_ON_FAILURE)",Chrome 114.0.0.0,,,2023-06-14 16:39:16,2023-06-14 16:39:17,0.801s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-14 16:39:17,2023-06-14 16:39:18,0.726s,PASSED
