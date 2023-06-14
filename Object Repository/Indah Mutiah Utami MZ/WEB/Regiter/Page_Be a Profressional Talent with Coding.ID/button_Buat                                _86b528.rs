@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Buat                                _86b528</name>
+   <tag></tag>
+   <elementGuidId>cd3662f6-6ecb-4994-a7cf-f1007a5cf03c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbar-collapse-1']/ul/li[8]/form/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.buttonBanner.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>412757d5-8bc5-4ab5-861a-2f80392d77ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>buttonBanner btn-sm</value>
+      <webElementGuid>125924d7-290f-4f43-9c39-4b49ec66b1b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Buat
+                                                        Akun</value>
+      <webElementGuid>7fddfe13-022d-4343-9483-1eddf215f516</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar-collapse-1&quot;)/ul[@class=&quot;nav navbar-nav&quot;]/li[@class=&quot;wm-megamenu-li&quot;]/form[1]/button[@class=&quot;buttonBanner btn-sm&quot;]</value>
+      <webElementGuid>d5a2fad8-d15e-44d1-8ecb-5ad31cee27b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='navbar-collapse-1']/ul/li[8]/form/button</value>
+      <webElementGuid>23ff660d-8469-4d55-8cc1-d343d9233fcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::button[1]</value>
+      <webElementGuid>3fd15a2b-cedc-46b6-95a1-8eb228d6d116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kontak'])[1]/following::button[1]</value>
+      <webElementGuid>c5b2acca-32ff-4fca-809e-77a04222876a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tutup'])[1]/preceding::button[1]</value>
+      <webElementGuid>25f9ee7f-1292-4e48-a0a3-73d7e8b2e3f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Course'])[2]/preceding::button[2]</value>
+      <webElementGuid>07498708-d058-4d21-b5f4-037066414f7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[8]/form/button</value>
+      <webElementGuid>a0681466-7692-45d8-9e5c-1dcede986a3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Buat
+                                                        Akun' or . = 'Buat
+                                                        Akun')]</value>
+      <webElementGuid>06fef01d-1c2d-481b-ab8d-9aae3211dd67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

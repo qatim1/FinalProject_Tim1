@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menginput field yang tersedia sesuai requirements, dan tidak centang syarat dan ketentuan</description>
+   <name>WEBTCR_N_003_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>33352810-3ad1-4a3e-a542-d7108267c0e2</testCaseGuid>
+</TestCaseEntity>
