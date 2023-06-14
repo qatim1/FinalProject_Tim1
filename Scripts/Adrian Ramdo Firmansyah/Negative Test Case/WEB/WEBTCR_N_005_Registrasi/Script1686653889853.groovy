@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('https://demo-app.online/')
+
+WebUI.click(findTestObject('Adrian Ramdo Firmansyah/Website/Main_Page/button_Buat Akun'))
+
+WebUI.setText(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_nama'), 'Abdul Budi')
+
+WebUI.setText(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Email'), 'testcdid123@gmail.com')
+
+WebUI.setText(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Whatsapp'), '089637557848')
+
+WebUI.setEncryptedText(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Password'), '/1ZObZjf6SXVzGwZ9Vhvcg==')
+
+WebUI.setEncryptedText(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Field_Konfirmasi_Password'), '/1ZObZjf6SXVzGwZ9Vhvcg==')
+
+WebUI.click(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/Checkbox_Persetujuan'))
+
+WebUI.click(findTestObject('Adrian Ramdo Firmansyah/Website/Page_Buat_Akun/button_Daftar'))
+
+WebUI.verifyTextPresent('Wajib di isi.', false)
+
+WebUI.closeBrowser()
+

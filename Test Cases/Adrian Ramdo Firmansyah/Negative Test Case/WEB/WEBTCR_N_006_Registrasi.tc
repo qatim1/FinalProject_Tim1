@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menginput field &quot;Tanggal Lahir&quot; dengan kalkulasi umur &lt;6 tahun</description>
+   <name>WEBTCR_N_006_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34eea5c3-5632-4969-bb97-6805f6a2f046</testCaseGuid>
+</TestCaseEntity>

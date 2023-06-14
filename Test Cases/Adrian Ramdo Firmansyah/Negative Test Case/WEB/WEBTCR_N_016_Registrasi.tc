@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menginput field &quot;Kata Sandi&quot; dan &quot;Konfirmasi Kata Sandi&quot; &lt;8 karakter, dan field lain diinput sesuai requirements</description>
+   <name>WEBTCR_N_016_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fe94f04-a20c-4b8b-9103-25df1d479376</testCaseGuid>
+</TestCaseEntity>

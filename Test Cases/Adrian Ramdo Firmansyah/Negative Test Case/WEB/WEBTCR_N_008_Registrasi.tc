@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menginput field &quot;E-Mail&quot; dengan tidak menggunakan karakter &quot;@&quot;, dan field lain diinput sesuai requirements</description>
+   <name>WEBTCR_N_008_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1943f0f-03dc-48ae-8bcc-b839b3f1c530</testCaseGuid>
+</TestCaseEntity>
