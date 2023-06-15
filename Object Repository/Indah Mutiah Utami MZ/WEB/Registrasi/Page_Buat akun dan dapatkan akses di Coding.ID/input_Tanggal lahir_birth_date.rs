@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>312a5a08-d22b-4b54-923b-f61e01e6cce9</webElementGuid>
+      <webElementGuid>c3298e5f-bfee-4eeb-aa7d-9d88133ff4ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fbe6fc22-e96c-4af9-91ec-4596f25ea2cf</webElementGuid>
+      <webElementGuid>4d15a0c9-9e6f-4623-97e1-e177a4902879</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Tanggal Lahir</value>
-      <webElementGuid>09ec49fd-bae9-4b36-9e9b-6b328d9f8217</webElementGuid>
+      <webElementGuid>fda32d94-03bc-4447-b08a-bb905783600b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>name</name>
       <type>Main</type>
       <value>birth_date</value>
-      <webElementGuid>ab3571eb-2b2b-442a-a47e-5d04bf9541a7</webElementGuid>
+      <webElementGuid>a585f3f3-1c17-4e8b-bb1e-06b86ea50592</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control datepicker</value>
-      <webElementGuid>034a00a3-f0c3-4bb6-9915-7c87a7903a9f</webElementGuid>
+      <webElementGuid>4655138c-8a21-4f78-b821-db14bdfbd26b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;no-htmlimports no-flash no-proximity no-applicationcache blobconstructor blob-constructor cookies cors customprotocolhandler dataview eventlistener geolocation history no-ie8compat json notification queryselector serviceworker customevent postmessage svg templatestrings typedarrays websockets no-xdomainrequest webaudio webworkers no-contextmenu cssall audio canvas canvastext contenteditable emoji olreversed no-userdata video no-vml webanimations webgl adownload audioloop canvasblending todataurljpeg todataurlpng todataurlwebp canvaswinding no-ambientlight hashchange inputsearchevent pointerevents hiddenscroll mathml unicoderange no-touchevents unicode no-batteryapi no-battery-api crypto no-dart gamepads fullscreen indexeddb indexeddb-deletedatabase intl pagevisibility performance pointerlock quotamanagement requestanimationframe raf vibrate no-webintents no-lowbattery getrandomvalues backgroundblendmode cssanimations backdropfilter backgroundcliptext appearance exiforientation audiopreload&quot;]/body[1]/div[@class=&quot;wm-main-wrapper&quot;]/div[@class=&quot;wm-main-section&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/form[1]/div[@class=&quot;form-group row&quot;]/div[@class=&quot;col-md-8&quot;]/input[@class=&quot;form-control datepicker&quot;]</value>
-      <webElementGuid>c7200dba-09ab-4585-973d-1d9a63e8d66e</webElementGuid>
+      <webElementGuid>9502ca2d-8e4b-4167-9ca2-13829cdcfa15</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='birth_date']</value>
-      <webElementGuid>0c167af4-72e4-41e7-bdbf-fa181e3336cc</webElementGuid>
+      <webElementGuid>784c45f8-4b2f-43b7-99a0-9add7733f25b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>9b1da58b-8296-4827-895e-d53cc8ada86e</webElementGuid>
+      <webElementGuid>f591dcb5-c2e9-4534-ba62-67e11c7928cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @placeholder = 'Tanggal Lahir' and @name = 'birth_date']</value>
-      <webElementGuid>99b59259-6cac-43bc-8ff0-3d14c5253469</webElementGuid>
+      <webElementGuid>015301a3-2a2d-48ee-8388-eac2f08a361c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
