@@ -21,27 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://demo-app.online/')
 
-WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528'))
+WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528'))
 
-WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date'), 
+WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date'), 
     '14-Juli-1999')
 
-WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email'), 
+WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email'), 
     'testcdid123@gmail.com')
 
-WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp'), 
+WebUI.setText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp'), 
     '0812345678')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password'), 
     '/1ZObZjf6SWlTY4xbVQyPA==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation'), 
     '/1ZObZjf6SWlTY4xbVQyPA==')
 
-WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1'), 
+WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Register_WEBTCRN_004/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
+WebUI.click(findTestObject('Object Repository/Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
 
 WebUI.verifyTextPresent('Buat Akun Baru', false)
 

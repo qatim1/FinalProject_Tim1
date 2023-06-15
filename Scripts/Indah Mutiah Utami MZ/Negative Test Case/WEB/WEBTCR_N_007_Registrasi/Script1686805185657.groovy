@@ -29,22 +29,20 @@ WebUI.setText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat aku
 WebUI.setText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Tanggal lahir_birth_date'), 
     '14-Juli-1999')
 
-WebUI.setText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_E-Mail_email'), 
-    'testcdid123@gmail.com')
-
 WebUI.setText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Whatsapp_whatsapp'), 
-    '0812345678')
+    '08123456789')
 
 WebUI.setEncryptedText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Kata Sandi_password'), 
-    '/1ZObZjf6SXVzGwZ9Vhvcg==')
+    '/1ZObZjf6SWlTY4xbVQyPA==')
 
 WebUI.setEncryptedText(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_password_confirmation'), 
     '/1ZObZjf6SXVzGwZ9Vhvcg==')
 
-WebUI.verifyElementNotChecked(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1'), 
-    10)
+WebUI.click(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/input_Konfirmasi kata sandi_inlineCheckbox1'))
 
 WebUI.click(findTestObject('Indah Mutiah Utami MZ/WEB/Registrasi/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
+
+WebUI.verifyTextPresent('Buat Akun Baru', false)
 
 WebUI.closeBrowser()
 
