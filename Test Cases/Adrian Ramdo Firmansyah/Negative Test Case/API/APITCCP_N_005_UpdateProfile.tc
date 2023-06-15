@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update field birth_date kurang dari 6 tahun</description>
+   <name>APITCCP_N_005_UpdateProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af04aa02-402e-455b-8262-96465b7d0413</testCaseGuid>
+</TestCaseEntity>
