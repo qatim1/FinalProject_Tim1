@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menginput field &quot;Whatsapp&quot; dengan jumlah karakter &lt;10, dan field lain diinput sesuai requirements</description>
+   <name>WEBTCR_N_012_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3e16716-f3e5-459a-bf9a-710487e7f570</testCaseGuid>
+</TestCaseEntity>

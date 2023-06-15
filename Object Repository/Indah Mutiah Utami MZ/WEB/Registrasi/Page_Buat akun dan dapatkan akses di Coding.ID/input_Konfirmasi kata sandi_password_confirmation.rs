@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8315d1f1-86cb-4db0-8914-d06fee1a7fb2</webElementGuid>
+      <webElementGuid>26348a11-c3fc-4915-baf0-a4e5863d252a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password-confirm</value>
-      <webElementGuid>37c95ac1-e8cc-4cb0-b7d4-53ced56bd793</webElementGuid>
+      <webElementGuid>4ae9d478-f795-424a-939e-b599779d944a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>a50f7b55-7a17-40a8-8568-4fa8d9491bd7</webElementGuid>
+      <webElementGuid>db657be2-2e86-4fd8-8825-77779d643105</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Ulangi kata sandi anda</value>
-      <webElementGuid>7fd93375-41d5-49b6-8da7-abe7e5a820f4</webElementGuid>
+      <webElementGuid>3b2d6b33-193b-438f-8ff0-8f708a6c9533</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>6e584583-7a8c-40bf-a6dc-00fa38f68eaf</webElementGuid>
+      <webElementGuid>05de7131-4c4a-41b0-9a0f-f97c5fac7419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>password_confirmation</value>
-      <webElementGuid>d1e18d13-aad5-425d-b0c6-2ef47c8e8be7</webElementGuid>
+      <webElementGuid>d49a5928-e056-4731-a7db-de3a78da5500</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>df6d41c5-ff33-407d-9fcf-e1c0b90c820a</webElementGuid>
+      <webElementGuid>c5f73380-90f7-4fb2-b6d0-eb31d1a10398</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password-confirm&quot;)</value>
-      <webElementGuid>a0dc4daf-856a-4d5c-a1b0-b05193e56213</webElementGuid>
+      <webElementGuid>d845f946-2465-4a83-ab79-ed6d684b836e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password-confirm']</value>
-      <webElementGuid>04a45fdd-020d-41d8-bbba-35c551d50cac</webElementGuid>
+      <webElementGuid>69e287f0-48c2-4e7c-86ca-33782013cb6b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/div/input</value>
-      <webElementGuid>2e4a50d0-15dc-4b5b-897e-df9cbb88b2ac</webElementGuid>
+      <webElementGuid>282103d6-5817-4dcb-8e2a-42123f9fab98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'password-confirm' and @type = 'password' and @placeholder = 'Ulangi kata sandi anda' and @name = 'password_confirmation']</value>
-      <webElementGuid>4c7a0f28-6ac4-4faf-9506-ee4770b6a1a3</webElementGuid>
+      <webElementGuid>38c0244f-efb5-48bc-ab7a-9507edeafda2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

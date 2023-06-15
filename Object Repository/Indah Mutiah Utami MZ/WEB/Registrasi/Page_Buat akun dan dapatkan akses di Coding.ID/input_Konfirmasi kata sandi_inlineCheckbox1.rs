@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8fb6fd49-cd5e-4446-b36d-62b557b57d28</webElementGuid>
+      <webElementGuid>eb1e34a1-fed9-47f2-9af7-cb33a0351419</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-check-input</value>
-      <webElementGuid>cdd63fe7-f1bb-440a-92b3-d23cca4c852a</webElementGuid>
+      <webElementGuid>c1123001-adaf-4c18-921e-7dd4682d992b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>d14186ee-a7f8-47a0-90fa-8b85cd9dd3ee</webElementGuid>
+      <webElementGuid>45b34518-c7a5-4d72-ae6e-49f42168b300</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>inlineCheckbox1</value>
-      <webElementGuid>730a2343-9ba7-462b-843c-ac7d8d71612a</webElementGuid>
+      <webElementGuid>6cae7491-7c31-44a8-8812-d9a5c9aa0a5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>value</name>
       <type>Main</type>
       <value>option1</value>
-      <webElementGuid>8460d586-94e4-43a6-bf0d-6cc0c75bf4bb</webElementGuid>
+      <webElementGuid>a8bb3b15-5fa3-4607-8b3a-a5c07c787142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;inlineCheckbox1&quot;)</value>
-      <webElementGuid>668b2563-80a1-4759-814e-9f9e3fdae374</webElementGuid>
+      <webElementGuid>edcb60b8-1076-491b-aa6f-a2e47712b069</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='inlineCheckbox1']</value>
-      <webElementGuid>3e323e8e-cbd7-4b54-b1c9-23a75f806ad8</webElementGuid>
+      <webElementGuid>802bf957-ede8-40ee-bf5e-4412d18658ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/input</value>
-      <webElementGuid>06002043-c8da-4c7c-b3b0-6d304f3fc862</webElementGuid>
+      <webElementGuid>9e37d6b2-ba1d-4c42-bea7-7bd46482f9c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'checkbox' and @id = 'inlineCheckbox1']</value>
-      <webElementGuid>c3b7141f-4b56-4a4c-af77-6d8742292d87</webElementGuid>
+      <webElementGuid>32cc104c-13d2-4ccc-8b9f-e6eaf352913a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
