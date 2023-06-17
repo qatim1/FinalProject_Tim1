@@ -15,21 +15,21 @@
       <guid>c08cc73c-962f-4c9d-9f23-d457cb819259</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dendy Indriyo Saputro/Negative Test Case/API/APITCL_N_002_Login</testCaseId>
+      <testCaseId>Test Cases/API/APITS_001_Cek Fungsionalitas Login/Negatif Test Case/APITCL_N_002_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>fea7d2b6-429f-4108-92f5-5cab3112896a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dendy Indriyo Saputro/Negative Test Case/API/APITCL_N_005_Login</testCaseId>
+      <testCaseId>Test Cases/API/APITS_001_Cek Fungsionalitas Login/Negatif Test Case/APITCL_N_005_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>4fd17add-b650-4af2-8e5a-0c430423b1dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dendy Indriyo Saputro/Positive Test Case/API/APITCL_P_001_Login</testCaseId>
+      <testCaseId>Test Cases/API/APITS_001_Cek Fungsionalitas Login/Positif Test Case/APITCL_P_001_Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

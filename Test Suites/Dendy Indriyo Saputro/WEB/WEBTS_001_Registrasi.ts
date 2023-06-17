@@ -15,7 +15,7 @@
       <guid>76fba286-e00b-48e7-806d-2717424118ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dendy Indriyo Saputro/Negative Test Case/WEB/WEBTCR_N_001_Registrasi</testCaseId>
+      <testCaseId>Test Cases/Website/WEBTS_001_Cek Fungsionalitas Register/Negatif Test Case/WEBTCR_N_001_Registrasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
