@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengosongkan field yang tersedia</description>
+   <name>WEBTCR_N_001_Registrasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b2058f1-96cd-4349-9f73-4175df7bb53c</testCaseGuid>
+</TestCaseEntity>

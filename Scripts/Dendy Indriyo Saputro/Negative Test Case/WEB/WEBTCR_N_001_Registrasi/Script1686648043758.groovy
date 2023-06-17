@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demo-app.online/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('Dendy Indriyo Saputro/WEB/Page_Be a Profressional Talent with Coding.ID/button_Buat                                _86b528'))
+
+WebUI.click(findTestObject('Dendy Indriyo Saputro/WEB/Page_Buat akun dan dapatkan akses di Coding.ID/button_Daftar'))
+
+WebUI.verifyTextPresent('Buat Akun Baru', false)
+
+WebUI.delay(1)
+
